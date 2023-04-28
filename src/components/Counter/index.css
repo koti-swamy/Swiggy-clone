@@ -1,0 +1,26 @@
+.counter-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-btn-style {
+  background-color: transparent;
+  border: 1px solid #e5e5e5;
+  color: #334155;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.counter-para {
+  font-family: 'Bree Serif';
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #334155;
+}

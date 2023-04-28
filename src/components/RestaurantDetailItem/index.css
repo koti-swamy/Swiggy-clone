@@ -1,0 +1,205 @@
+.restaurantDetailBg {
+}
+.restaurantDetailCard {
+  background-image: url('https://i.pinimg.com/736x/fc/0b/ca/fc0bca765c94a813eb8797590f21b2f0--desktop-wallpapers-hd-wallpaper.jpg');
+  width: 100vw;
+  height: 100%;
+  background-size: cover;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.restaurant-detail-img {
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.rating-cost-container {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+}
+.restaurantDetailDescCard {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  font-family: Roboto;
+  justify-content: center;
+  color: white;
+  font-size: 15px;
+}
+
+.restaurantDetailName {
+  font-weight: 500;
+  font-size: 36px;
+  margin-bottom: 0px;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+}
+
+.rating-cost-top-card {
+  display: flex;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.rating-cost-bottom-card {
+  margin-top: 0px;
+  color: #e2e8f0;
+}
+
+.restaurant-detail-para {
+  margin-bottom: 0px;
+}
+
+.rating-cost-desc {
+  margin-top: 0px;
+}
+
+.rating-cost-item {
+  margin-bottom: 0px;
+}
+
+.restaurant-food-items-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.food-list-container {
+  display: flex;
+  flex-direction: row;
+  width: 380px;
+  margin-bottom: 30px;
+}
+
+.food-item-img {
+  height: 130px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.food-item-rating-card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.rating-card {
+  display: flex;
+  font-size: 13px;
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+
+.food-item-name {
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.food-cost-style {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 5px;
+}
+
+.food-star-icon-style {
+  color: #ffcc00;
+  margin-top: 3px;
+}
+
+.food-star-icon-style1 {
+  color: #334155;
+  margin-top: 3px;
+}
+
+.add-btn-style {
+  font-family: 'Inter';
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffcc00;
+  background-color: transparent;
+  border: 1px solid #ffcc00;
+  border-radius: 5px;
+  height: 20px;
+  align-items: center;
+}
+
+.restaurants-offers-loader2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.restaurant-failure-container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.failure-img1 {
+  height: 300px;
+  width: 300px;
+}
+
+.failure-head1 {
+  color: #1e293b;
+  font-family: 'DM Sans';
+}
+
+.failure-para1 {
+  color: #475569;
+  font-family: 'DM Sans';
+}
+
+.failure-retry-btn1 {
+  border: 0px;
+  background-color: #f7931e;
+  color: white;
+  font-size: 10px;
+  height: 20px;
+  align-items: center;
+  border-radius: 5px;
+  width: 50px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 796px) {
+  .restaurantDetailName {
+    font-size: 26px;
+  }
+  .restaurantDetailDescCard {
+    width: 300px;
+  }
+
+  .restaurant-detail-img {
+    height: 200px;
+    width: 250px;
+    border-bottom-right-radius: 100%;
+  }
+  .restaurantDetailCard {
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+}

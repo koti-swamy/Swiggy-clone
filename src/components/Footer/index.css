@@ -1,0 +1,31 @@
+.footer-tasty-head {
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.footer-bg-container {
+  background-color: #0f172a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 250px;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.website-footer-logo {
+  height: 25px;
+}
+
+.footer-icon {
+  font-size: 25px;
+  margin-left: 15px;
+}

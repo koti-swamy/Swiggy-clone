@@ -1,0 +1,49 @@
+.successFullBg {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tick-style {
+  background-color: #22c55e;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
+
+.payment-status {
+  color: #1e293b;
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.payment-desc {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 16px;
+  color: #64748b;
+}
+
+.link-home {
+  text-decoration: none;
+}
+
+.link-home-btn {
+  background-color: #f7931e;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 6px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}

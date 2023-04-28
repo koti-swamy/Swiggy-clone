@@ -1,0 +1,38 @@
+.offer-img {
+  width: 100vw;
+  border-radius: 10px;
+}
+
+.restaurants-offers-loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 300px;
+}
+
+.failure-slide-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 300px;
+}
+
+.failure-slide-btn {
+  border: 0px;
+  background-color: #f7931e;
+  color: white;
+  font-size: 10px;
+  height: 20px;
+  align-items: center;
+  border-radius: 5px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.slide-container {
+  border-radius: 10px;
+}

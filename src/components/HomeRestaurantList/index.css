@@ -1,0 +1,161 @@
+.restaurants-offers-loader1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home-head-style {
+  color: #183b56;
+  font-size: 32px;
+  margin-bottom: 0px;
+  font-family: DM Sans;
+}
+
+.home-para-style {
+  color: #64748b;
+  font-size: 16px;
+  margin-top: 15px;
+  font-family: DM Sans;
+}
+
+.search-sort-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sortCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.search-input-style {
+  height: 30px;
+  width: 35vw;
+  border-right: none;
+  padding-left: 10px;
+  outline: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 12px;
+  align-items: center;
+  color: #64748b;
+}
+
+.search-btn-style {
+  height: 30px;
+  width: 50px;
+  border-left: none;
+  color: white;
+  background-color: #f7931e;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.sortCard {
+  color: #64748b;
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sort-para {
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.select-style {
+  border: none;
+  font-size: 16px;
+  color: #64748b;
+  outline: none;
+  margin-left: 5px;
+}
+
+.restaurant-list {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.no-restaurants-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-restaurant-img {
+  width: 250px;
+  height: 250px;
+}
+
+.no-restaurant-head {
+  color: #1e293b;
+  font-family: 'DM Sans';
+}
+
+.no-restaurant-para {
+  color: #475569;
+  font-family: 'DM Sans';
+}
+
+.restaurant-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.failure-img {
+  height: 300px;
+  width: 300px;
+}
+
+.failure-head {
+  color: #1e293b;
+  font-family: 'DM Sans';
+}
+
+.failure-para {
+  color: #475569;
+  font-family: 'DM Sans';
+}
+
+.failure-retry-btn {
+  border: 0px;
+  background-color: #f7931e;
+  color: white;
+  font-size: 10px;
+  height: 20px;
+  align-items: center;
+  border-radius: 5px;
+  width: 50px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 796px) {
+  .restaurant-list {
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+}

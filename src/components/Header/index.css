@@ -1,0 +1,154 @@
+.nav-tasty-head {
+  color: #f7931e;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.header-bg {
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.head-img-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-website-logo {
+  height: 25px;
+  margin-right: 13px;
+}
+
+.nav-right-medium-dev {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-menu {
+  text-decoration: none;
+  color: #334155;
+  margin-right: 20px;
+}
+
+.nav-menu1 {
+  color: #f7931e;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.logout-btn {
+  border: 0px;
+  background-color: #f7931e;
+  color: white;
+  font-size: 10px;
+  height: 20px;
+  align-items: center;
+  border-radius: 5px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.popup-logout {
+  border: none;
+}
+
+.popup-bg-container {
+  background-color: #334155;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.logout-warning-msg {
+  color: white;
+}
+
+.cancel-btn {
+  background-color: white;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 25px;
+  align-items: center;
+  font-size: 12px;
+  margin-right: 5px;
+}
+.confirm-btn {
+  background-color: #f7931e;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 25px;
+  align-items: center;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.ham-card {
+  display: none;
+}
+.nav-small-dev {
+  display: none;
+}
+.small-head-bg {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-tasty-head {
+    font-size: 15px;
+  }
+  .nav-website-logo {
+    height: 20px;
+  }
+  .nav-small-dev {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-right-medium-dev {
+    display: none;
+  }
+  .logout-btn1 {
+    color: #f7931e;
+    border: 0px;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .ham-card {
+    display: flex;
+  }
+
+  .small-head-bg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+  }
+
+  .close-btn {
+    color: #334155;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .ham-btn {
+    background-color: transparent;
+    color: #231f20;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}

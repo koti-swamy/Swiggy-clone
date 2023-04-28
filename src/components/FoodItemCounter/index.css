@@ -1,0 +1,25 @@
+.quantity-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.quantity-btn-style {
+  color: #3e4c59;
+  background-color: #e5e5e5;
+  border: 1px solid #3e4c59;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.quantity-counter {
+  color: #475569;
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
