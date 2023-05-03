@@ -134,67 +134,6 @@ class Login extends Component {
             />
           </div>
         </div>
-        <div>
-          <div className="login-small-dev">
-            <div className="login-img-container1">
-              <img
-                src="https://res.cloudinary.com/djjtzlcrx/image/upload/v1682330181/Rectangle_1456_1x_udpbb1.png"
-                alt="website login"
-                className="login-img1"
-              />
-            </div>
-            <div className="login-card1">
-              <div className="login-top-card">
-                <h1 className="login-top-head">Login</h1>
-              </div>
-
-              <form className="login-bottom-card" onSubmit={this.onLogin}>
-                <div className="input-container">
-                  <label htmlFor="username" className="login-input-label">
-                    USERNAME
-                  </label>
-                  <input
-                    type="text"
-                    id="username"
-                    onChange={this.onUsername}
-                    placeholder="Enter Username"
-                    value={username}
-                    className="login-input-style"
-                  />
-                </div>
-                <div className="input-container">
-                  <label htmlFor="password" className="login-input-label">
-                    PASSWORD
-                  </label>
-                  <input
-                    type={passwordType}
-                    id="password"
-                    onChange={this.onPassword}
-                    placeholder="Enter Password"
-                    value={password}
-                    className="login-input-style1"
-                  />
-                </div>
-                <div className="input-checkbox-container">
-                  <input
-                    type="checkbox"
-                    id="checkbox"
-                    className="login-input-style1"
-                    onChange={this.onCheckbox}
-                    value={isCheckbox}
-                  />
-                  <label htmlFor="checkbox" className="login-input-label1">
-                    Show Password
-                  </label>
-                </div>
-                {isError && <p className="error-msg">{errorMsg}</p>}
-                <button type="submit" className="login-btn-style">
-                  Login
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
       </>
     )
   }

@@ -26,7 +26,7 @@ class App extends Component {
   }
 
   getLocalStorage = () => {
-    const getLocalStorage = localStorage.getItem('cart_list')
+    const getLocalStorage = localStorage.getItem('cartData')
     if (getLocalStorage !== null) {
       const parseLocalStorage = JSON.parse(getLocalStorage)
       this.setState({cartList: parseLocalStorage})
@@ -40,7 +40,7 @@ class App extends Component {
   onAdd1 = (id, imageUrl, cost, name) => {
     const {cartList} = this.state
 
-    const getLocalStorage = localStorage.getItem('cart_list')
+    const getLocalStorage = localStorage.getItem('cartData')
 
     const boolean = cartList.some(eachItem => eachItem.id === id)
 
@@ -100,7 +100,7 @@ class App extends Component {
   onMinus1 = (quantity, id) => {
     const {cartList} = this.state
     const boolean = cartList.some(eachItem => eachItem.id === id)
-    const getLocalStorage = localStorage.getItem('cart_list')
+    const getLocalStorage = localStorage.getItem('cartData')
     if (getLocalStorage !== null) {
       const parseLocalStorage = JSON.parse(getLocalStorage)
       const localBoolean = parseLocalStorage.some(
@@ -170,7 +170,7 @@ class App extends Component {
   }
 
   onCartMinus = id => {
-    const getLocalStorage = localStorage.getItem('cart_list')
+    const getLocalStorage = localStorage.getItem('cartData')
     const parseLocalStorage = JSON.parse(getLocalStorage)
     const checkQuantity = parseLocalStorage.every(
       eachItem => eachItem.quantity > 1,
@@ -199,7 +199,7 @@ class App extends Component {
   }
 
   onCartPlus = id => {
-    const getLocalStorage = localStorage.getItem('cart_list')
+    const getLocalStorage = localStorage.getItem('cartData')
     const parseLocalStorage = JSON.parse(getLocalStorage)
     this.setState(
       {
@@ -219,7 +219,7 @@ class App extends Component {
 
     const stingifiedData = JSON.stringify(cartList)
 
-    localStorage.setItem('cart_list', stingifiedData)
+    localStorage.setItem('cartData', stingifiedData)
   }
 
   render() {
