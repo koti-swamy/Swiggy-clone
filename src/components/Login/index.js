@@ -108,18 +108,6 @@ class Login extends Component {
                   className="login-input-style1"
                 />
               </div>
-              <div className="input-checkbox-container">
-                <input
-                  type="checkbox"
-                  id="checkbox"
-                  className="login-input-style1"
-                  onChange={this.onCheckbox}
-                  value={isCheckbox}
-                />
-                <label htmlFor="checkbox" className="login-input-label1">
-                  Show Password
-                </label>
-              </div>
               {isError && <p className="error-msg">{errorMsg}</p>}
               <button type="submit" className="login-btn-style">
                 Login
