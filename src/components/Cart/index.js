@@ -148,35 +148,6 @@ const CartItem = props => {
               <div>
                 <p className="cart-img-name1">{name}</p>
               </div>
-              <div className="cart-counter-card1">
-                <button
-                  className="cart-btn-style1"
-                  type="button"
-                  testid="decrement-quantity"
-                  onClick={() => {
-                    onCartMinus(id)
-                  }}
-                >
-                  -
-                </button>
-                <p className="quantity-style-cart1" testid="item-quantity">
-                  {quantity}
-                </p>
-                <button
-                  type="button"
-                  className="cart-btn-style1"
-                  testid="increment-quantity"
-                  onClick={() => {
-                    onCartPlus(id)
-                  }}
-                >
-                  +
-                </button>
-              </div>
-              <div className="price-cart-item-card1">
-                <BiRupee />
-                <p>{quantity * cost}.00</p>
-              </div>
             </div>
           </li>
         )
