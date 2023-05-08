@@ -142,7 +142,7 @@ const CartItem = props => {
             </div>
             <div className="price-cart-item-card">
               <BiRupee />
-              <p testid="total-price">{quantity * cost}.00</p>
+              <p>{quantity * cost}.00</p>
             </div>
             <div className="cart-style-medium">
               <div>
